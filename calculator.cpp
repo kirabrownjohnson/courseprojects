@@ -9,7 +9,7 @@
 #include <memory>
 #include <stdexcept>
 
-// Base Class: Operator
+//Base Class: Operator
 class Operator {
 public:
     virtual double execute(double a, double b) const = 0;
