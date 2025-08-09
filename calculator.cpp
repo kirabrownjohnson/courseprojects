@@ -13,13 +13,13 @@
 class Operator {
 public:
     virtual double execute(double a, double b) const = 0;
-    virtual ~Operator() {} //no = default
+    virtual ~Operator() {} 
 };
 
 //Addition Class
 class Addition : public Operator {
 public:
-    double execute(double a, double b) const { // no override
+    double execute(double a, double b) const { 
         return a + b;
     }
 };
